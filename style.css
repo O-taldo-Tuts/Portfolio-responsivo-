@@ -273,8 +273,8 @@ span {
 
 .typing-text #typing-text::after {
     content: '|';
-    position: absolute;
-    right: 3;
+    position:relative;
+    right: 5;
     animation: blink 0.7s infinite step-end;
 }
 
