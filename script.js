@@ -27,7 +27,7 @@ menuIcon.addEventListener('click', () => {
 // script.js
 document.addEventListener('DOMContentLoaded', () => {
     const typingText = document.getElementById('typing-text');
-    const textArray = ['Desenvolvedor Web|', 'Cientista de Dados|', 'Entusiasta da Tecnologia|'];
+    const textArray = ['Desenvolvedor Web', 'Cientista de Dados', 'Entusiasta da Tecnologia'];
     const typingDelay = 100; // tempo em milissegundos para digitar um caractere
     const erasingDelay = 50;  // tempo em milissegundos para apagar um caractere
     const newTextDelay = 1500; // tempo em milissegundos entre a troca de textos
