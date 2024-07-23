@@ -12,10 +12,10 @@
 }
 
 :root {
-    --bg-color: #000000;
-    --second-bg-color: #161616;
+    --bg-color: #1D2226;
+    --second-bg-color: #000000;
     --text-color: #fff;
-    --main-color: #7b5bb7;
+    --main-color: rgb(10 102 194);
 }
 
 html {
@@ -476,12 +476,12 @@ span {
     padding: 10px;
     border-radius: 1rem;
     background: var(--bg-color);
-    box-shadow: 0 4px 10px var(--text-color);
+    box-shadow: 0 4px 10px var(--main-color);
     transition: 0.3s ease;
 }
 
 .Skills .container .bar:hover {
-    box-shadow: 0 4px 10px var(--main-color);
+    box-shadow: 0 4px 10px var(--text-color);
 }
 
 .Skills .container .bar .info {
@@ -493,6 +493,7 @@ span {
 }
 
 .Skills .container .bar .info span {
+    color: #ffffff;
     font-size: 2rem;
     font-weight: 500;
     margin-left: 0.5rem;
@@ -581,12 +582,14 @@ span {
 .education .content{
     background: var(--main-color);
     position: relative;
-    border-radius: 6px;
+    border-radius: 20px;
+    padding:0 0 10px 0;
+    margin:0 20px 0 20px;
 }
 .education .content .tag {
     font-size: 1.5rem;
     padding-top: 1.5rem;
-    padding-left: 1.5rem;
+    padding-left: 1.5rem;   
 }
 .education .contant .decs h3 {
     font-size: 1.5rem;
